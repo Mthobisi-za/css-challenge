@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    background-color: grey;
+}
+.holder{
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+}
+.triangle{
+    width: 80%;
+    min-height: 500px;
+    background: #ff7f50;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 0%;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid black;
+}
